@@ -1,0 +1,17 @@
+<div class="starter-template">
+	<h1>API REST Laravel 5.1 y AngularJS</h1>
+	<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+	<div class="col-md-8 col-md-offset-2">
+		<div class="panel panel-defaultb lst">
+			<div ng-repeat="thematic in thematics" class="row">
+				<div class="col-sm-10 listnames">
+					<label>{{thematic.name}}</label>
+				</div>
+				<div class="col-sm-2 options">
+					<a href="#/edit/{{thematic.id}}" class="edit"><span class="glyphicon glyphicon-edit"></span></a>
+					<a ng-click="remove(thematic.id)" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

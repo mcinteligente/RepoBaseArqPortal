@@ -1,0 +1,7 @@
+html body{padding-top:50px}html body div.container .starter-template{padding:40px 15px;text-align:center}html body div.container .starter-template .listnames{text-align:left}
+html body div.container .starter-template .options{text-align:right}
+html body div.container .starter-template .lst{padding:10px}
+html body div.container .glyphicon-refresh-animate{-animation:spin .7s infinite linear;-webkit-animation:spin2 .7s infinite linear}
+html body div.container .loading_fullscreen{display:none}
+html body div.container .container-fluid{margin:40px 15px}
+@-webkit-keyframes spin2{from{-webkit-transform:rotate(0deg)} to{-webkit-transform:rotate(360deg)}}@keyframes spin{from{transform:scale(1) rotate(0deg)} to{transform:scale(1) rotate(360deg)}}
